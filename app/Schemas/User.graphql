@@ -1,0 +1,17 @@
+input LoginInput {
+  email: String!
+  password: String!
+}
+
+type UserResponse {
+  id: ID
+  email: String
+  userName: String
+}
+
+input UserInput {
+  id: ID
+  email: String
+  userName: String
+  password: String
+}

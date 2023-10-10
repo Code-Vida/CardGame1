@@ -4,7 +4,7 @@ let database = null
 let client = null
 
 async function connect() {
-  const uri = 'mongodb://mongo:digh0s1LbYImdbYe7TDd@containers-us-west-136.railway.app:7582/cardgame'
+  const uri = 'mongodb://mongo:digh0s1LbYImdbYe7TDd@containers-us-west-136.railway.app:7582'
   const dbName = 'cardgame'
   client = new MongoClient(uri, {
     useNewUrlParser: true,

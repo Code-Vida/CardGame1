@@ -23,6 +23,7 @@
     "uuid": "^9.0.0"
   },
   "devDependencies": {
+    "@flydotio/dockerfile": "^0.5.0",
     "nodemon": "^2.0.20",
     "prettier": "^2.8.4"
   }

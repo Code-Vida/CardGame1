@@ -8,10 +8,7 @@ async function connect() {
   const uri = 'mongodb+srv://admin:admin@cluster0.dqsftdf.mongodb.net/?retryWrites=true&w=majority'
   //const uri = 'mongodb://localhost:27017'
   const dbName = 'cardgame'
-  client = new MongoClient(uri, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+  client = new MongoClient(uri)
 
   await client.connect((err, db) => {
     if (err) throw err

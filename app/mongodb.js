@@ -5,7 +5,7 @@ let client = null
 
 async function connect() {
   //const uri = 'mongodb://mongo:digh0s1LbYImdbYe7TDd@containers-us-west-136.railway.app:7582'
-  const uri = 'mongodb://mongo:monorail.proxy.rlwy.net:20972'
+  const uri = 'mongodb+srv://admin:admin@cluster0.dqsftdf.mongodb.net/?retryWrites=true&w=majority'
   //const uri = 'mongodb://localhost:27017'
   const dbName = 'cardgame'
   client = new MongoClient(uri, {
